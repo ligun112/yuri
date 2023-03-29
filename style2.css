@@ -1,0 +1,40 @@
+@import "./reset.css";
+.reporter {
+  height: 1000px;
+}
+.img__center {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+}
+img {
+  height: 300px;
+}
+body {
+  background-image: url("./images/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 1000px) {
+  body {
+    background-image: url("./images/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: 1000px 1000px;
+  }
+  .bale {
+    display: none;
+  }
+  img {
+    height: 100px;
+  }
+  .reporter {
+    height: 400px;
+  }
+  .img__center {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+  }
+}

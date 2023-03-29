@@ -1,0 +1,53 @@
+@import "./reset.css";
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+input {
+  padding: 10px 20px;
+  font-size: 20px;
+}
+h1 {
+  font-size: 100px;
+  font-family: 900;
+}
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+body {
+  background-image: url("./images/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 1000px) {
+  body {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  h1 {
+    font-size: 100px;
+    font-family: 900;
+  }
+  input {
+    padding: 10px 20px;
+    font-size: 20px;
+  }
+  .input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+  }
+}
